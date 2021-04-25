@@ -1,6 +1,6 @@
 const inputText = document.getElementById("inputText");
-console.log(inputText);
 const btn = document.getElementById("btn");
+const output = document.getElementById("output");
 const vowels = ["a", "e", "i", "o", "u"];
 console.log(vowels);
 
@@ -12,8 +12,9 @@ const countVowels = () => {
       count++;
     }
   }
-  console.log(`The text contains ${count} vowels`);
+  output.innerHTML = `The text contains <span>${count}</span>  vowels`;
   return count;
 };
 
 btn.addEventListener("click", countVowels);
+countVowels();
