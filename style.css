@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: whitesmoke;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: linear-gradient(to right, rgb(0, 242, 96), rgb(5, 117, 230));
+}
+.wrapper {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.wrapper h1 {
+  font-size: 2.5rem;
+}
+textarea {
+  font-size: 1.5rem;
+  padding: 5px;
+  resize: none;
+  border: 5px solid #f14e0d;
+  border-radius: 10px;
+}
+textarea:focus {
+  outline: none;
+}
+#output {
+  font-size: 2rem;
+  font-weight: bold;
+}
+span {
+  color: aqua;
+}
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: transparent;
+  border: 2px solid #fff;
+  color: whitesmoke;
+  font-size: 1.2rem;
+}
